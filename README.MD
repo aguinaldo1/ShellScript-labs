@@ -7,14 +7,22 @@ Esse repositório tem por finalidade armazenar scripts utilizados para pratica d
 
 ## 🚀 Começando
 
-Script 1 - my-script.sh
+Script 1
+```
+myscript.sh
 - Descrição: Script com a finalidade de imprimir na tela um Hello World.
 ```
-Script 2 - SomaValores.sh
+
+Script 2 
+```
+SomaValores.sh
 - Descrição: Script que após executado solicita dois valores como entrada.
 	     Esses valores são somados e o resultado é exibido para o usuário.
 ```
-Script 3 - RelatorioMaquina.sh
+
+Script 3 
+```
+RelatorioMaquina.sh
 - Descrição: Script que gera relatório com informações da máquina atual:
 	- Nome da Máquina
 	- Data e Hora Atual
@@ -36,7 +44,9 @@ Script 3 - RelatorioMaquina.sh
   OBS.: Nesse exercício foi usado combinações de comandos como:tr,cut,grep,sed a fim de extrair e formatar as informações desejadas.
       Foi usado ajudas pelo man e --help para fazer a identificação da melhor opção para cada parâmetro.
 
-Script 4 - RelatorioUsuario.sh 
+Script 4 
+```
+RelatorioUsuario.sh 
 - Descrição: Script que recebe um nome de usuário como parâmetro e exibe as seguintes informações:
 - UID do usuário.
 - Nome Completo / Descrição do Usuário.
@@ -49,3 +59,32 @@ Script 4 - RelatorioUsuario.sh
 			- du - para descobrir o uso do diretório.
 			- lastlog - para informações do login.
 			- Dados do usuário no arquivo /etc/passwd.
+
+
+### Uso de Instruções Condicionais
+Script 5 - HoraAtual-v1.sh - Condicional com o uso do if.
+Script 6 - HoraAtual-v2.sh - Condicional com o uso do if | elif | else.
+Script 7 - HoraAtual-v3.sh - Condiciona usando case.
+- Descrição: Script que baseia-se no horário atual e printa na tela: Bom dia, Boa Tarde ou Boa Noite.
+  Considera o começo do dia às 06:00.
+  O mesmo script mostra a hora atual no formato de 0 a 12, indicando AM ou PM.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
